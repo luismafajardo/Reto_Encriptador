@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/computing.jpg" alt="Header Image" width="100%" height="125px">
+    </header>
+
+    <main>
+        
+        <h1 class="titulo">Encriptador de texto</h1>
+    
+        <section class="seccion1">
+
+            <div class="division1">
+
+                <textarea id="areaEncriptada" placeholder="Introduce una palabra en minúsculas, sin espacios y sin caracteres especiales">
+                </textarea>
+                
+                <button onclick="encriptarTexto();" class="boton1">Encriptar</button>
+
+            </div>
+
+            <div class="division1">
+
+                <textarea id="areaDesencriptada" placeholder="Esta es la palabra encriptada" readonly>
+                </textarea>
+                
+                <button onclick="desencriptarTexto();" class="boton1">Desencriptar</button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+
+    <footer class="pie">Desarrollado por Luis F</footer> 
+    
+</body>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</html>
